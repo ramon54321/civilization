@@ -1,0 +1,7 @@
+-d '/home/ramon/Desktop/Citizen/build/docs/javadoc'
+-doctitle 'Citizen API'
+-quiet 
+-windowtitle 'Citizen API'
+'/home/ramon/Desktop/Citizen/src/main/java/org/ramonbrand/civilization/Civilization.java'
+'/home/ramon/Desktop/Citizen/src/main/java/org/ramonbrand/civilization/resources/ResourceStore.java'
+'/home/ramon/Desktop/Citizen/src/main/java/org/ramonbrand/civilization/resources/Resource.java'

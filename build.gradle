@@ -1,0 +1,17 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'org.ramonbrand.civilization.Civilization'
+
+jar {
+  baseName = 'civilization'
+  version = '0.1.0'
+  manifest {
+    attributes 'Main-Class': 'org.ramonbrand.civilization.Civilization'
+  }
+}
+
+task myJavadocs(type: Javadoc) {
+  source = sourceSets.main.allJava
+  classpath = configurations.compile
+}
