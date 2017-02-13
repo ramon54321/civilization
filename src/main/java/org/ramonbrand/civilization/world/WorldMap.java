@@ -1,7 +1,7 @@
 package org.ramonbrand.civilization.world;
 
 import org.ramonbrand.civilization.utilities.*;
-import org.ramonbrand.civilization.world.*;
+import org.ramonbrand.civilization.resources.*;
 import java.util.Map;
 import java.util.HashMap;
 import java.util.Set;
@@ -12,10 +12,6 @@ import java.util.HashSet;
  */
 public class WorldMap {
 
-  public PositionalHashMap<WorldTile> worldTiles = new PositionalHashMap();
-  public PositionalHashMapSet<WorldTile> worldTilesPositional = new PositionalHashMapSet();
-
-  public WorldMap(){}
-
+  public PositionalHashMap<WorldDataPoint> worldDataPoints = new PositionalHashMap();
 
 }
