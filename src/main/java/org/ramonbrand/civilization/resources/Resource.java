@@ -1,5 +1,10 @@
 package org.ramonbrand.civilization.resources;
 
+/***
+ * The list of available resources.
+ *
+ * New resources can be added to this list and it will not effect current resources. Resources should not be removed from this list.
+ */
 public enum Resource {
   Tin,
   Copper,

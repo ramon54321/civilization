@@ -3,5 +3,9 @@
 -quiet 
 -windowtitle 'Citizen API'
 '/home/ramon/Desktop/Citizen/src/main/java/org/ramonbrand/civilization/Civilization.java'
+'/home/ramon/Desktop/Citizen/src/main/java/org/ramonbrand/civilization/utilities/Vec2i.java'
 '/home/ramon/Desktop/Citizen/src/main/java/org/ramonbrand/civilization/resources/ResourceStore.java'
 '/home/ramon/Desktop/Citizen/src/main/java/org/ramonbrand/civilization/resources/Resource.java'
+'/home/ramon/Desktop/Citizen/src/main/java/org/ramonbrand/civilization/world/WorldArea.java'
+'/home/ramon/Desktop/Citizen/src/main/java/org/ramonbrand/civilization/world/WorldMap.java'
+'/home/ramon/Desktop/Citizen/src/main/java/org/ramonbrand/civilization/world/WorldTile.java'

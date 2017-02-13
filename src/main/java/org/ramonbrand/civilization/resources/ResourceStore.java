@@ -5,6 +5,11 @@ import java.util.Map;
 import java.util.HashMap;
 import java.lang.Math;
 
+/***
+ * The main store of resources. Most commonly used in a civilization object to store the units of resources.
+ *
+ * Manages all aspects of resources, including incrementing and decrementing specific resources.
+ */
 public class ResourceStore {
 
   private Map<Resource, Long> resources = new HashMap();
